@@ -19,6 +19,7 @@ Each utility is a standalone C file. Clone the repository and compile any file d
 
 ```bash
 git clone https://github.com/kforkernel/linux-c-core-utils
+cd linux-c-core-utils
 
 # Compile a utility (using gcc or clang)
 gcc echo.c -o echo
@@ -30,12 +31,13 @@ Run the compiled binary directly from the directory:
 ./echo "Hello, world!"
 ```
 
-Or move them into the /bin or /usr/local/bin directory
+Or move them into the `/usr/local/bin` directory:
 
 ```bash
-mv ./echo /usr/local/bin
+sudo mv ./echo /usr/local/bin
 ```
 
 ## License
 
-This project is under the kforkernel Use License (KUL) v1.0
+This project is under the kforkernel Use License (KUL) v1.0.
+For more details, read [LICENSE.md](LICENSE.md).
