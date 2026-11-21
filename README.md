@@ -1,2 +1,41 @@
 # linux-c-core-utils
-My implemtation of the Linux core utils (work in progress).
+
+My implementation of the Linux core utilities written in C.
+
+> [!NOTE]
+> This project is a work in progress built for learning C and Linux systems programming.
+
+## Implemented Utilities
+
+- [x] `cat` – Concatenate and print files
+- [x] `echo` – Display a line of text
+- [ ] `ls` – List directory contents
+- [ ] `cp` – Copy files and directories
+- [ ] `rm` – Remove files or directories
+
+## Building & Usage
+
+Each utility is a standalone C file. Clone the repository and compile any file directly using `gcc` or `clang`:
+
+```bash
+git clone https://github.com/kforkernel/linux-c-core-utils
+
+# Compile a utility (using gcc or clang)
+gcc echo.c -o echo
+```
+
+Run the compiled binary directly from the directory:
+
+```bash
+./echo "Hello, world!"
+```
+
+Or move them into the /bin or /usr/local/bin directory
+
+```bash
+mv ./echo /usr/local/bin
+```
+
+## License
+
+This project is under the kforkernel Use License (KUL) v1.0
