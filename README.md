@@ -19,7 +19,7 @@ Each utility is a standalone C file. Clone the repository and compile any file d
 
 ```bash
 git clone https://github.com/kforkernel/linux-c-core-utils
-cd linux-c-core-utils
+cd linux-c-core-utils/src
 
 # Compile a utility (using gcc or clang)
 gcc echo.c -o echo
