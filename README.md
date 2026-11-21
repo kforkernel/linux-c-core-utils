@@ -40,4 +40,4 @@ sudo mv ./echo /usr/local/bin
 ## License
 
 This project is under the kforkernel Use License (KUL) v1.0.
-For more details, read [LICENSE](LICENSE).
+For more details, read [LICENSE.md](LICENSE.md).
