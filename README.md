@@ -12,6 +12,9 @@ A clean-room implementation of standard Linux core utilities written in C.
 - [ ] `ls` – List directory contents
 - [x] `cp` – Copy files and directories
 - [x] `mkdir` – Creates directories
+- [x] `pwd` – Prints current working directory
+- [x] `whoami` – Prints current user
+
 ## Building & Usage
 
 Each utility is a standalone C file with zero external dependencies. Clone the repository and compile any file directly using `gcc` or `clang`:
