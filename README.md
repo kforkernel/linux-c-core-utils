@@ -10,7 +10,7 @@ My implementation of the Linux core utilities written in C.
 - [x] `cat` – Concatenate and print files
 - [x] `echo` – Display a line of text
 - [ ] `ls` – List directory contents
-- [ ] `cp` – Copy files and directories
+- [x] `cp` – Copy files and directories
 - [ ] `rm` – Remove files or directories
 
 ## Building & Usage
