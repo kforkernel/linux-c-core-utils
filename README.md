@@ -11,8 +11,7 @@ A clean-room implementation of standard Linux core utilities written in C.
 - [x] `echo` – Display a line of text
 - [ ] `ls` – List directory contents
 - [x] `cp` – Copy files and directories
-- [ ] `rm` – Remove files or directories
-
+- [x] `mkdir` – Creates directories
 ## Building & Usage
 
 Each utility is a standalone C file with zero external dependencies. Clone the repository and compile any file directly using `gcc` or `clang`:
