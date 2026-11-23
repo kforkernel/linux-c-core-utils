@@ -18,7 +18,7 @@ int main(int argc, char *argv[]){
     int error_check = 0;
 
     if (argc < 2){
-        fprintf(stderr, "%s: Error: Usage: '%s <dir>\n", argv[0], argv[0]);
+        fprintf(stderr, "%s: Error: Usage: '%s <dir>'\n", argv[0], argv[0]);
         return 1;
     }
 
