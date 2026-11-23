@@ -3,7 +3,7 @@
 A clean-room implementation of standard Linux core utilities written in C.
 
 > [!NOTE]
-> This project is an active work in progress focused on exploring Linux systems programming, POSIX system calls, and low-level C development. While these utilities prioritize core functionality and essential flags over 100% feature parity with GNU Coreutils, they are built from scratch to faithfully replicate standard behavior. This is not intended to be a full 100% replacement for the GNU core-utils! Some commands may not mimic the GNU core-utils functionality either due to design choice or omitted features!
+> This project is an active work in progress focused on exploring Linux systems programming, POSIX system calls, and low-level C development. Rather than aiming to replicate the entire GNU Coreutils suite, this repository focuses on building a curated set of essential utilities from scratch, prioritizing core functionality over full flag parity.
 
 ## Implemented Utilities
 
