@@ -7,4 +7,4 @@ Licensed under the kforkernel Use License (KUL) v1.0.
 See LICENSE.md for terms and conditions.
 */
 
-int main(void){return 0};
+int main(void){return 0;}
