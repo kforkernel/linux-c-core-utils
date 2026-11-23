@@ -14,6 +14,7 @@ A clean-room implementation of standard Linux core utilities written in C.
 - [x] `mkdir` – Creates directories
 - [x] `pwd` – Prints current working directory
 - [x] `whoami` – Prints current user
+- [x] `touch` – Creates an empty file
 
 ## Building & Usage
 
