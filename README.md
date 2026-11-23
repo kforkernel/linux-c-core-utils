@@ -1,9 +1,9 @@
 # linux-c-core-utils
 
-My implementation of the Linux core utilities written in C.
+A clean-room implementation of standard Linux core utilities written in C.
 
 > [!NOTE]
-> This project is a work in progress built for learning C and Linux systems programming.
+> This project is an active work in progress focused on exploring Linux systems programming, POSIX system calls, and low-level C development. While these utilities prioritize core functionality and essential flags over 100% feature parity with GNU Coreutils, they are built from scratch to faithfully replicate standard behavior.
 
 ## Implemented Utilities
 
@@ -15,7 +15,7 @@ My implementation of the Linux core utilities written in C.
 
 ## Building & Usage
 
-Each utility is a standalone C file. Clone the repository and compile any file directly using `gcc` or `clang`:
+Each utility is a standalone C file with zero external dependencies. Clone the repository and compile any file directly using `gcc` or `clang`:
 
 ```bash
 git clone https://github.com/kforkernel/linux-c-core-utils
@@ -31,7 +31,7 @@ Run the compiled binary directly from the directory:
 ./echo "Hello, world!"
 ```
 
-Or move them into the `/usr/local/bin` directory:
+Or install them system-wide by moving the binaries to `/usr/local/bin`:
 
 ```bash
 sudo mv ./echo /usr/local/bin
